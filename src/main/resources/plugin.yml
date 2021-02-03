@@ -1,9 +1,9 @@
 name: GriefPrevention
-main: me.ryanhamshire.GriefPrevention.GriefPrevention
+main: org.arakhne.minecraft.griefprevention.GriefPreventionPlugin
 softdepend: [Vault, Multiverse-Core, My_Worlds, MystCraft, Transporter, TheUnderground, WorldGuard, WorldEdit, RoyalCommands, MultiWorld, Denizen]
-dev-url: https://dev.bukkit.org/projects/grief-prevention
+dev-url: https://github.com/gallandarakhneorg/grief-prevention
 loadbefore: [TheUnderground]
-version: '${git.commit.id.describe}'
+version: '${project.version}'
 api-version: '1.16'
 commands:
     abandonclaim:
