@@ -219,6 +219,18 @@ commands:
       description: Gives a player a manual about claiming land.
       usage: /ClaimBook <player>
       permission: griefprevention.claimbook
+    claimrelease:
+      description: Change the durations of release of claims. time_between_release must be 5, 10, 15 minutes. Release duration is 1 minute.
+      usage: /ClaimRelease <time_between_release>
+      permission: griefprevention.claims
+    pvponclaim:
+      description: Enable or disable PvP on claim blocks.
+      usage: /PvpOnClaim {on|off}
+      permission: griefprevention.claims
+    claimworldconfig:
+      description: Configure claim dynamics.
+      usage: /ClaimWorldConfig {on|off}
+      permission: griefprevention.adminclaims
 permissions:
     griefprevention.createclaims:
         description: Grants permission to create claims.
